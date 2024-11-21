@@ -1,0 +1,680 @@
+0000.001 (0) Opened log file at time: Thu, 21 Nov 2024 08:03:05 +0000 on http://192.168.101.11/wordpress
+0000.025 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.11 WP: 6.7 PHP: 8.2.24 (apache2handler, Linux debian 6.1.0-26-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.112-1 (2024-09-30) x86_64) MySQL: 10.11.6-MariaDB-0+deb12u1 (max packet size=16777216) WPLANG: fr_FR Server: Apache/2.4.62 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 13.8M | 16M) multisite: N openssl: OpenSSL 3.0.14 4 Jun 2024 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.038 (0) Free space on disk containing Updraft's temporary directory: 11619.4 MB
+0000.056 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.068 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.166 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1732089666, seconds_ago=86519)
+0000.230 (0) Set semaphore last lock (fd) time to 2024-11-21 08:03:05
+0000.237 (0) Semaphore lock (fd) complete
+0000.274 (0) Backup run: resumption=0, nonce=fcd30c4fb917, file_nonce=fcd30c4fb917 begun at=1732176185 (0s ago), job type=backup
+0000.305 (0) Scheduling a resumption (1) after 300 seconds (1732176485) in case this run gets aborted
+0000.443 (0) Checking if we have a zip executable available
+0000.472 (0) Creation of backups of directories: beginning
+0000.501 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0008.798 (0) Total entities for the zip file: 2469 directories, 10761 files (0 skipped as non-modified), 180.5 MB
+0008.809 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0009.028 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 100 files added (on-disk size: 445.5 KB)
+0009.037 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 200 files added (on-disk size: 445.5 KB)
+0009.044 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 300 files added (on-disk size: 445.5 KB)
+0009.052 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 400 files added (on-disk size: 445.5 KB)
+0009.061 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 500 files added (on-disk size: 445.5 KB)
+0009.066 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 600 files added (on-disk size: 445.5 KB)
+0009.075 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 700 files added (on-disk size: 445.5 KB)
+0009.084 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 800 files added (on-disk size: 445.5 KB)
+0009.091 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 900 files added (on-disk size: 445.5 KB)
+0009.099 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 1000 files added (on-disk size: 445.5 KB)
+0009.101 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.4 MB, 10761 files batched, 1001 (1002) added so far); re-opening (prior size: 445.5 KB)
+0012.194 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 1100 files added (on-disk size: 3072.4 KB)
+0012.201 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 1200 files added (on-disk size: 3072.4 KB)
+0012.208 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 1300 files added (on-disk size: 3072.4 KB)
+0012.216 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 1400 files added (on-disk size: 3072.4 KB)
+0012.223 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 1500 files added (on-disk size: 3072.4 KB)
+0012.229 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 1600 files added (on-disk size: 3072.4 KB)
+0012.237 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 1700 files added (on-disk size: 3072.4 KB)
+0012.245 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 1800 files added (on-disk size: 3072.4 KB)
+0012.252 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 1900 files added (on-disk size: 3072.4 KB)
+0012.258 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 2000 files added (on-disk size: 3072.4 KB)
+0012.263 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.9 MB, 10761 files batched, 1001 (2003) added so far); re-opening (prior size: 3072.4 KB)
+0014.756 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 2100 files added (on-disk size: 5135.5 KB)
+0014.765 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 2200 files added (on-disk size: 5135.5 KB)
+0014.773 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 2300 files added (on-disk size: 5135.5 KB)
+0014.780 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 2400 files added (on-disk size: 5135.5 KB)
+0014.831 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 2500 files added (on-disk size: 5135.5 KB)
+0014.866 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 2600 files added (on-disk size: 5135.5 KB)
+0014.873 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 2700 files added (on-disk size: 5135.5 KB)
+0014.885 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 2800 files added (on-disk size: 5135.5 KB)
+0014.895 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 2900 files added (on-disk size: 5135.5 KB)
+0014.903 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 3000 files added (on-disk size: 5135.5 KB)
+0014.905 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22.8 MB, 10761 files batched, 1001 (3004) added so far); re-opening (prior size: 5135.5 KB)
+0026.867 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 3100 files added (on-disk size: 13120.5 KB)
+0026.874 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 3200 files added (on-disk size: 13120.5 KB)
+0026.883 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 3300 files added (on-disk size: 13120.5 KB)
+0026.892 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 3400 files added (on-disk size: 13120.5 KB)
+0026.899 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 3500 files added (on-disk size: 13120.5 KB)
+0026.906 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 3600 files added (on-disk size: 13120.5 KB)
+0026.914 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 3700 files added (on-disk size: 13120.5 KB)
+0026.922 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 3800 files added (on-disk size: 13120.5 KB)
+0026.929 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 3900 files added (on-disk size: 13120.5 KB)
+0026.936 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 4000 files added (on-disk size: 13120.5 KB)
+0026.938 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (17.5 MB, 10761 files batched, 1001 (4005) added so far); re-opening (prior size: 13120.5 KB)
+0032.969 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 4100 files added (on-disk size: 18601.7 KB)
+0033.048 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 4200 files added (on-disk size: 18601.7 KB)
+0033.073 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 4300 files added (on-disk size: 18601.7 KB)
+0033.086 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 4400 files added (on-disk size: 18601.7 KB)
+0033.097 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 4500 files added (on-disk size: 18601.7 KB)
+0033.106 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 4600 files added (on-disk size: 18601.7 KB)
+0033.115 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 4700 files added (on-disk size: 18601.7 KB)
+0033.124 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 4800 files added (on-disk size: 18601.7 KB)
+0033.142 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 4900 files added (on-disk size: 18601.7 KB)
+0033.155 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 5000 files added (on-disk size: 18601.7 KB)
+0033.165 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (20.4 MB, 10761 files batched, 1001 (5006) added so far); re-opening (prior size: 18601.7 KB)
+0040.717 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 5100 files added (on-disk size: 24694.5 KB)
+0040.742 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 5200 files added (on-disk size: 24694.5 KB)
+0040.750 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 5300 files added (on-disk size: 24694.5 KB)
+0040.758 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 5400 files added (on-disk size: 24694.5 KB)
+0040.793 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 5500 files added (on-disk size: 24694.5 KB)
+0040.801 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 5600 files added (on-disk size: 24694.5 KB)
+0040.808 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 5700 files added (on-disk size: 24694.5 KB)
+0040.820 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 5800 files added (on-disk size: 24694.5 KB)
+0040.838 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 5900 files added (on-disk size: 24694.5 KB)
+0040.846 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 6000 files added (on-disk size: 24694.5 KB)
+0040.849 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.1 MB, 10761 files batched, 1001 (6007) added so far); re-opening (prior size: 24694.5 KB)
+0044.533 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 6100 files added (on-disk size: 27257.8 KB)
+0044.611 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 6200 files added (on-disk size: 27257.8 KB)
+0044.672 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 6300 files added (on-disk size: 27257.8 KB)
+0044.689 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 6400 files added (on-disk size: 27257.8 KB)
+0044.693 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 10761 files batched, 394 (6401) added so far); re-opening (prior size: 27257.8 KB)
+0069.327 (0) A useful amount of data was added after this amount of zip processing: 25 s (normalised: 24.9 s, rate: 1026.1 KB/s)
+0069.424 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 6500 files added (on-disk size: 32068.3 KB)
+0069.517 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 6600 files added (on-disk size: 32068.3 KB)
+0069.533 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 6700 files added (on-disk size: 32068.3 KB)
+0069.541 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 6800 files added (on-disk size: 32068.3 KB)
+0069.547 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 6900 files added (on-disk size: 32068.3 KB)
+0069.554 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 7000 files added (on-disk size: 32068.3 KB)
+0069.561 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 10761 files batched, 695 (7096) added so far); re-opening (prior size: 32068.3 KB)
+0077.031 (0) A useful amount of data was added after this amount of zip processing: 8.7 s (normalised: 8.7 s, rate: 2955.6 KB/s)
+0077.121 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 7100 files added (on-disk size: 40550.7 KB)
+0077.131 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 7200 files added (on-disk size: 40550.7 KB)
+0077.148 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 7300 files added (on-disk size: 40550.7 KB)
+0077.156 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 7400 files added (on-disk size: 40550.7 KB)
+0077.163 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 7500 files added (on-disk size: 40550.7 KB)
+0077.170 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 7600 files added (on-disk size: 40550.7 KB)
+0077.177 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 7700 files added (on-disk size: 40550.7 KB)
+0077.186 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 7800 files added (on-disk size: 40550.7 KB)
+0077.192 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 7900 files added (on-disk size: 40550.7 KB)
+0077.201 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 8000 files added (on-disk size: 40550.7 KB)
+0077.209 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.6 MB, 10761 files batched, 1001 (8097) added so far); re-opening (prior size: 40550.7 KB)
+0081.601 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 8100 files added (on-disk size: 44760.6 KB)
+0081.608 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 8200 files added (on-disk size: 44760.6 KB)
+0081.617 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 8300 files added (on-disk size: 44760.6 KB)
+0081.624 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 8400 files added (on-disk size: 44760.6 KB)
+0081.631 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 8500 files added (on-disk size: 44760.6 KB)
+0081.639 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 8600 files added (on-disk size: 44760.6 KB)
+0081.646 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 8700 files added (on-disk size: 44760.6 KB)
+0081.653 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 8800 files added (on-disk size: 44760.6 KB)
+0081.659 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 8900 files added (on-disk size: 44760.6 KB)
+0081.665 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 9000 files added (on-disk size: 44760.6 KB)
+0081.673 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.7 MB, 10761 files batched, 1001 (9098) added so far); re-opening (prior size: 44760.6 KB)
+0088.554 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 9100 files added (on-disk size: 48209.5 KB)
+0088.602 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 9200 files added (on-disk size: 48209.5 KB)
+0088.652 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 9300 files added (on-disk size: 48209.5 KB)
+0088.687 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 9400 files added (on-disk size: 48209.5 KB)
+0088.697 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 9500 files added (on-disk size: 48209.5 KB)
+0088.705 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 9600 files added (on-disk size: 48209.5 KB)
+0088.722 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 9700 files added (on-disk size: 48209.5 KB)
+0088.768 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 9800 files added (on-disk size: 48209.5 KB)
+0088.786 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 9900 files added (on-disk size: 48209.5 KB)
+0088.815 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 10000 files added (on-disk size: 48209.5 KB)
+0088.840 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.7 MB, 10761 files batched, 1001 (10099) added so far); re-opening (prior size: 48209.5 KB)
+0092.605 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 10100 files added (on-disk size: 50086.4 KB)
+0092.614 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 10200 files added (on-disk size: 50086.4 KB)
+0092.622 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 10300 files added (on-disk size: 50086.4 KB)
+0092.631 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 10400 files added (on-disk size: 50086.4 KB)
+0092.640 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 10500 files added (on-disk size: 50086.4 KB)
+0092.650 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 10600 files added (on-disk size: 50086.4 KB)
+0092.657 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.tmp: 10700 files added (on-disk size: 50086.4 KB)
+0098.262 (0) Creating zip file manifest (backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.list-temp.tmp)
+0098.335 (0) Successfully created zip file manifest (size: 910730)
+0099.336 (0) Created plugins zip (0) - 58386.7 KB in 98.8 s (590.8 KB/s) (sha1: d8b4f7e9cec32bd166a4904761583b451a33f36d, sha256: d094073e562ceea822fb9b339b41bbfce7c304943a5a9bc41cdf02aaeee14385)
+0099.403 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0099.406 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-724255601916f0f3d98fc68ece2ebb81)
+0101.261 (0) Google Drive: quota usage: used=142.1 MB, total=15360 MB, available=15217.9 MB
+0101.273 (0) Google Drive: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip: Attempting to upload to Google Drive (into folder id: 1n_wjwSdz3xR1G1jdtz5XzJoxmV0QIM02)
+0102.379 (0) Googledrive chunked upload: 1.8 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 16.3 / 22)
+0102.922 (0) Googledrive chunked upload: 5.3 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 16.3 / 22)
+0104.282 (0) Googledrive chunked upload: 12.3 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 16.3 / 22)
+0106.130 (0) Googledrive chunked upload: 26.3 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 16.3 / 22)
+0111.333 (0) Googledrive chunked upload: 54.4 % uploaded (32505856)
+0116.615 (0) Googledrive chunked upload: 82.4 % uploaded (49283072)
+0119.170 (0) Googledrive chunked upload: 100 % uploaded (49283072)
+0119.176 (0) Google Drive: OK: Archive backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip uploaded in 17.9 seconds
+0119.178 (0) Recording as successfully uploaded: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip
+0119.201 (0) Deleting local file: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip: OK
+0119.210 (0) Beginning creation of dump of themes (split every: 400 MB)
+0120.034 (0) Total entities for the zip file: 114 directories, 656 files (0 skipped as non-modified), 15 MB
+0120.074 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0120.094 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0120.109 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0120.121 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0120.134 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0120.142 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0123.763 (0) Creating zip file manifest (backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-themes.zip.list-temp.tmp)
+0123.770 (0) Successfully created zip file manifest (size: 44365)
+0123.945 (0) Created themes zip (0) - 4706.8 KB in 4.7 s (995.7 KB/s) (sha1: 29f84839c07b91a2bfd74b544d8b2d174f2762cb, sha256: 30a04313457c616f5966302dd1f0beec47de6574659f8907dd19e0af13a1ca3c)
+0123.964 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0123.967 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-724255601916f0f3d98fc68ece2ebb81)
+0124.440 (0) Google Drive: quota usage: used=199.1 MB, total=15360 MB, available=15160.9 MB
+0124.465 (0) Google Drive: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-themes.zip: Attempting to upload to Google Drive (into folder id: 1n_wjwSdz3xR1G1jdtz5XzJoxmV0QIM02)
+0125.564 (0) Googledrive chunked upload: 21.8 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 14.7 / 20)
+0126.039 (0) Googledrive chunked upload: 65.3 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 14.7 / 20)
+0127.867 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0127.881 (0) Google Drive: OK: Archive backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-themes.zip uploaded in 3.41 seconds
+0127.884 (0) Recording as successfully uploaded: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-themes.zip
+0127.888 (0) Deleting local file: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-themes.zip: OK
+0127.896 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0127.898 (0) Looking for candidates to backup in: /var/www/html/wordpress/wp-content/uploads
+0127.900 (0) finding files: wpforms: adding to list (1)
+0127.902 (0) finding files: 2022: adding to list (2)
+0127.904 (0) finding files: 2016: adding to list (3)
+0127.906 (0) finding files: 2024: adding to list (4)
+0127.907 (0) finding files: elementor: adding to list (5)
+0127.909 (0) finding files: fbrfg: adding to list (6)
+0127.910 (0) finding files: oceanwp-webfonts: adding to list (7)
+0127.912 (0) finding files: slider2: adding to list (8)
+0127.914 (0) finding files: backup: skipping: excluded by options (glob)
+0127.916 (0) finding files: slider: adding to list (9)
+0127.917 (0) finding files: oceanwp-webfonts-css: adding to list (10)
+0127.920 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0128.245 (0) Total entities for the zip file: 36 directories, 232 files (0 skipped as non-modified), 12.1 MB
+0128.263 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0128.273 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0131.105 (0) Creating zip file manifest (backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-uploads.zip.list-temp.tmp)
+0131.113 (0) Successfully created zip file manifest (size: 19418)
+0131.298 (0) Created uploads zip (0) - 9671.4 KB in 3.4 s (2867.2 KB/s) (sha1: 60ec23dfd8c4ac13657c7cb9af8ab5fce0cca207, sha256: bed419d2141ed371f11cff4cf7b2feb1c66ca8a9e635309a2a3aed1a0e3de193)
+0131.306 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0131.307 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-724255601916f0f3d98fc68ece2ebb81)
+0131.737 (0) Google Drive: quota usage: used=203.7 MB, total=15360 MB, available=15156.3 MB
+0131.739 (0) Google Drive: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-uploads.zip: Attempting to upload to Google Drive (into folder id: 1n_wjwSdz3xR1G1jdtz5XzJoxmV0QIM02)
+0132.797 (0) Googledrive chunked upload: 10.6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 14.6 / 20)
+0133.297 (0) Googledrive chunked upload: 31.8 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 14.6 / 20)
+0134.826 (0) Googledrive chunked upload: 74.1 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 14.6 / 20)
+0136.828 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0136.842 (0) Google Drive: OK: Archive backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-uploads.zip uploaded in 5.1 seconds
+0136.846 (0) Recording as successfully uploaded: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-uploads.zip
+0136.866 (0) Deleting local file: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-uploads.zip: OK
+0136.884 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0136.888 (0) Does not exist: /var/www/html/wordpress/wp-content/mu-plugins
+0136.892 (0) There are no mu-plugins to backup. Will not raise an error.
+0136.895 (0) mu-plugins: create_zip returned an error
+0136.903 (0) Beginning backup of other directories found in the content directory (index: 0)
+0136.906 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0136.910 (0) Looking for candidates to backup in: /var/www/html/wordpress/wp-content
+0136.912 (0) finding files: languages: adding to list (1)
+0136.915 (0) finding files: upgrade-temp-backup: adding to list (2)
+0136.917 (0) finding files: updraft: skipping: this is the updraft directory
+0136.921 (0) finding files: plugins: skipping: this is the plugins directory
+0136.924 (0) finding files: themes: skipping: this is the themes directory
+0136.926 (0) finding files: fonts: adding to list (3)
+0136.929 (0) finding files: wflogs: adding to list (4)
+0136.931 (0) finding files: index.php: adding to list (5)
+0136.933 (0) finding files: uploads: skipping: this is the uploads directory
+0136.935 (0) finding files: upgrade: skipping: excluded by options
+0137.008 (0) Total entities for the zip file: 7 directories, 279 files (0 skipped as non-modified), 20.6 MB
+0137.021 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0137.033 (0) Zip: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0147.360 (0) Creating zip file manifest (backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-others.zip.list-temp.tmp)
+0147.368 (0) Successfully created zip file manifest (size: 17540)
+0147.683 (0) Created others zip (0) - 8416.5 KB in 10.7 s (783.5 KB/s) (sha1: 58d364c8ae103ad7ee2a9448973e08b04638988e, sha256: 075ecf8fe32411b5e8a1d57f60b79b95d2b3546d1475d251819425b59823ed36)
+0147.698 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0147.700 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-724255601916f0f3d98fc68ece2ebb81)
+0148.168 (0) Google Drive: quota usage: used=213.2 MB, total=15360 MB, available=15146.8 MB
+0148.217 (0) Google Drive: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-others.zip: Attempting to upload to Google Drive (into folder id: 1n_wjwSdz3xR1G1jdtz5XzJoxmV0QIM02)
+0149.310 (0) Googledrive chunked upload: 12.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 14.6 / 20)
+0149.981 (0) Googledrive chunked upload: 36.5 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 14.6 / 20)
+0150.851 (0) Googledrive chunked upload: 85.2 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 14.6 / 20)
+0152.753 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0152.764 (0) Google Drive: OK: Archive backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-others.zip uploaded in 4.54 seconds
+0152.769 (0) Recording as successfully uploaded: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-others.zip
+0152.782 (0) Deleting local file: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-others.zip: OK
+0152.796 (0) Saving backup status to database (elements: 8)
+0152.803 (0) Beginning creation of database dump (WordPress DB)
+0152.808 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0152.812 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0153.084 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1455 bytes total)
+0153.089 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0153.120 (0) Table wp_options: Total expected rows (via COUNT): 489
+0153.123 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0153.191 (0) Table wp_options: Rows added in this batch (next record: 5700): 485 (uncompressed bytes in this segment=1483930) in 0.08 seconds
+0153.283 (0) Table wp_options: finishing file(s) (2, 217.8 KB)
+0153.319 (0) Table wp_users: Total expected rows (via COUNT): 1
+0153.354 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0153.362 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1177) in 0.07 seconds
+0153.375 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0153.463 (0) Table wp_usermeta: Total expected rows (via COUNT): 35
+0153.465 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0153.470 (0) Table wp_usermeta: Rows added in this batch (next record: 37): 35 (uncompressed bytes in this segment=4966) in 0.06 seconds
+0153.504 (0) Table wp_usermeta: finishing file(s) (2, 2 KB)
+0153.559 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 62
+0153.562 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0153.571 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 118): 62 (uncompressed bytes in this segment=25502) in 0.06 seconds
+0153.610 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 2.7 KB)
+0153.627 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0153.648 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=626) in 0.03 seconds
+0153.671 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0153.689 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 3
+0153.693 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0153.725 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=697) in 0.04 seconds
+0153.742 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0153.758 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 176
+0153.770 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0153.794 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 194): 176 (uncompressed bytes in this segment=15690) in 0.04 seconds
+0153.821 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 2.1 KB)
+0153.988 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0153.998 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.06 seconds
+0154.019 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0154.121 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0154.123 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0154.128 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2001) in 0.01 seconds
+0154.139 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0154.217 (0) Table wp_imagify_files: Total expected rows (via COUNT): 0
+0154.223 (0) Table wp_imagify_files: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1333) in 0.04 seconds
+0154.238 (0) Table wp_imagify_files: finishing file(s) (2, 0.5 KB)
+0154.262 (0) Table wp_imagify_folders: Total expected rows (via COUNT): 0
+0154.320 (0) Table wp_imagify_folders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=609) in 0.07 seconds
+0154.341 (0) Table wp_imagify_folders: finishing file(s) (2, 0.4 KB)
+0154.436 (0) Table wp_links: Total expected rows (via COUNT): 0
+0154.457 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.06 seconds
+0154.481 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0156.426 (0) Table wp_postmeta: Total expected rows (approximate): 2973
+0156.746 (0) Table wp_postmeta: Rows added in this batch (next record: 5116): 3224 (uncompressed bytes in this segment=10560256) in 2.26 seconds
+0156.772 (0) Table wp_postmeta: finishing file(s) (2, 442.5 KB)
+0157.310 (0) Table wp_posts: Total expected rows (via COUNT): 577
+0157.438 (0) Table wp_posts: Rows added in this batch (next record: 1324): 577 (uncompressed bytes in this segment=3572760) in 0.66 seconds
+0157.447 (0) Table wp_posts: finishing file(s) (2, 112.3 KB)
+0157.454 (0) Table wp_term_relationships: Total expected rows (approximate): 28
+0157.459 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 32 (uncompressed bytes in this segment=1157) in 0.01 seconds
+0157.467 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0157.481 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 15
+0157.483 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0157.489 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 16): 15 (uncompressed bytes in this segment=1336) in 0.01 seconds
+0157.506 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0157.550 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0157.558 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=607) in 0.03 seconds
+0157.571 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0157.579 (0) Table wp_terms: Total expected rows (via COUNT): 15
+0157.583 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0157.593 (0) Table wp_terms: Rows added in this batch (next record: 16): 15 (uncompressed bytes in this segment=1144) in 0.02 seconds
+0157.602 (0) Table wp_terms: finishing file(s) (2, 0.6 KB)
+0157.656 (0) Table wp_blc_filters: Total expected rows (via COUNT): 0
+0157.663 (0) Table wp_blc_filters: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=475) in 0.01 seconds
+0157.675 (0) Table wp_blc_filters: finishing file(s) (2, 0.3 KB)
+0157.683 (0) Table wp_blc_instances: Total expected rows (via COUNT): 5
+0157.685 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0157.690 (0) Table wp_blc_instances: Rows added in this batch (next record: 829): 5 (uncompressed bytes in this segment=1748) in 0.01 seconds
+0157.696 (0) Table wp_blc_instances: finishing file(s) (2, 0.7 KB)
+0157.705 (0) Table wp_blc_links: Total expected rows (via COUNT): 5
+0157.707 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0157.710 (0) Table wp_blc_links: Rows added in this batch (next record: 47): 5 (uncompressed bytes in this segment=7703) in 0.01 seconds
+0157.719 (0) Table wp_blc_links: finishing file(s) (2, 1.6 KB)
+0157.725 (0) Table wp_blc_synch: Total expected rows (approximate): 1
+0157.731 (0) Table wp_blc_synch: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=679) in 0.01 seconds
+0157.740 (0) Table wp_blc_synch: finishing file(s) (2, 0.4 KB)
+0157.748 (0) Table wp_e_events: Total expected rows (via COUNT): 12
+0157.750 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0157.756 (0) Table wp_e_events: Rows added in this batch (next record: 12): 12 (uncompressed bytes in this segment=2992) in 0.01 seconds
+0157.770 (0) Table wp_e_events: finishing file(s) (2, 0.7 KB)
+0157.834 (0) Table wp_nextend2_image_storage: Total expected rows (via COUNT): 8
+0157.838 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0157.845 (0) Table wp_nextend2_image_storage: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=2499) in 0.04 seconds
+0157.864 (0) Table wp_nextend2_image_storage: finishing file(s) (2, 1 KB)
+0157.883 (0) Table wp_nextend2_section_storage: Total expected rows (via COUNT): 12
+0157.888 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0157.902 (0) Table wp_nextend2_section_storage: Rows added in this batch (next record: 11490): 12 (uncompressed bytes in this segment=33090) in 0.02 seconds
+0157.913 (0) Table wp_nextend2_section_storage: finishing file(s) (2, 5.4 KB)
+0157.924 (0) Table wp_nextend2_smartslider3_generators: Total expected rows (via COUNT): 0
+0157.930 (0) Table wp_nextend2_smartslider3_generators: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.01 seconds
+0157.944 (0) Table wp_nextend2_smartslider3_generators: finishing file(s) (2, 0.4 KB)
+0158.078 (0) Table wp_nextend2_smartslider3_sliders: Total expected rows (via COUNT): 2
+0158.083 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0158.120 (0) Table wp_nextend2_smartslider3_sliders: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=30061) in 0.15 seconds
+0158.130 (0) Table wp_nextend2_smartslider3_sliders: finishing file(s) (2, 4.4 KB)
+0158.158 (0) Table wp_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 0
+0158.228 (0) Table wp_nextend2_smartslider3_sliders_xref: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=730) in 0.07 seconds
+0158.250 (0) Table wp_nextend2_smartslider3_sliders_xref: finishing file(s) (2, 0.4 KB)
+0158.355 (0) Table wp_nextend2_smartslider3_slides: Total expected rows (via COUNT): 5
+0158.358 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0158.367 (0) Table wp_nextend2_smartslider3_slides: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=46625) in 0.09 seconds
+0158.378 (0) Table wp_nextend2_smartslider3_slides: finishing file(s) (2, 4.2 KB)
+0158.387 (0) Table wp_seopress_content_analysis: Total expected rows (via COUNT): 5
+0158.390 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0158.393 (0) Table wp_seopress_content_analysis: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=16526) in 0.01 seconds
+0158.405 (0) Table wp_seopress_content_analysis: finishing file(s) (2, 3.3 KB)
+0158.412 (0) Table wp_wfauditevents: Total expected rows (via COUNT): 0
+0158.417 (0) Table wp_wfauditevents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=739) in 0.01 seconds
+0158.425 (0) Table wp_wfauditevents: finishing file(s) (2, 0.4 KB)
+0158.433 (0) Table wp_wfblockediplog: Total expected rows (approximate): 0
+0158.435 (0) Table wp_wfblockediplog: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=657) in 0.00 seconds
+0158.443 (0) Table wp_wfblockediplog: finishing file(s) (2, 0.4 KB)
+0158.449 (0) Table wp_wfblocks7: Total expected rows (via COUNT): 0
+0158.451 (0) Table wp_wfblocks7: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=846) in 0.00 seconds
+0158.461 (0) Table wp_wfblocks7: finishing file(s) (2, 0.4 KB)
+0158.469 (0) Table wp_wfconfig: Total expected rows (approximate): 259
+0158.481 (0) Table wp_wfconfig: Rows added in this batch (next record: 1000): 260 (uncompressed bytes in this segment=112498) in 0.01 seconds
+0158.491 (0) Table wp_wfconfig: finishing file(s) (2, 22.4 KB)
+0158.498 (0) Table wp_wfcrawlers: Total expected rows (approximate): 0
+0158.500 (0) Table wp_wfcrawlers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=582) in 0.00 seconds
+0158.509 (0) Table wp_wfcrawlers: finishing file(s) (2, 0.4 KB)
+0158.517 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0158.519 (0) Table wp_wffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=482) in 0.00 seconds
+0158.528 (0) Table wp_wffilechanges: finishing file(s) (2, 0.3 KB)
+0158.536 (0) Table wp_wffilemods: Total expected rows (approximate): 0
+0158.540 (0) Table wp_wffilemods: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=890) in 0.00 seconds
+0158.547 (0) Table wp_wffilemods: finishing file(s) (2, 0.4 KB)
+0158.554 (0) Table wp_wfhits: Total expected rows (via COUNT): 0
+0158.557 (0) Table wp_wfhits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=992) in 0.00 seconds
+0158.567 (0) Table wp_wfhits: finishing file(s) (2, 0.5 KB)
+0158.581 (0) Table wp_wfhoover: Total expected rows (via COUNT): 0
+0158.584 (0) Table wp_wfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=545) in 0.00 seconds
+0158.592 (0) Table wp_wfhoover: finishing file(s) (2, 0.4 KB)
+0158.650 (0) Table wp_wfissues: Total expected rows (via COUNT): 3
+0158.652 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0158.658 (0) Table wp_wfissues: Rows added in this batch (next record: 4): 3 (uncompressed bytes in this segment=4601) in 0.01 seconds
+0158.667 (0) Table wp_wfissues: finishing file(s) (2, 1.4 KB)
+0158.674 (0) Table wp_wfknownfilelist: Total expected rows (via COUNT): 0
+0158.680 (0) Table wp_wfknownfilelist: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=495) in 0.01 seconds
+0158.688 (0) Table wp_wfknownfilelist: finishing file(s) (2, 0.3 KB)
+0158.694 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0158.696 (0) Table wp_wflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=678) in 0.00 seconds
+0158.705 (0) Table wp_wflivetraffichuman: finishing file(s) (2, 0.4 KB)
+0158.715 (0) Table wp_wflocs: Total expected rows (approximate): 0
+0158.719 (0) Table wp_wflocs: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=835) in 0.01 seconds
+0158.730 (0) Table wp_wflocs: finishing file(s) (2, 0.5 KB)
+0158.739 (0) Table wp_wflogins: Total expected rows (via COUNT): 0
+0158.741 (0) Table wp_wflogins: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=724) in 0.00 seconds
+0158.749 (0) Table wp_wflogins: finishing file(s) (2, 0.4 KB)
+0158.758 (0) Table wp_wfls_2fa_secrets: Total expected rows (via COUNT): 0
+0158.761 (0) Table wp_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=711) in 0.00 seconds
+0158.770 (0) Table wp_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0158.778 (0) Table wp_wfls_role_counts: Total expected rows (approximate): 0
+0158.781 (0) Table wp_wfls_role_counts: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=576) in 0.00 seconds
+0158.790 (0) Table wp_wfls_role_counts: finishing file(s) (2, 0.4 KB)
+0158.796 (0) Table wp_wfls_settings: Total expected rows (approximate): 27
+0158.801 (0) Table wp_wfls_settings: Rows added in this batch (next record: 1000): 30 (uncompressed bytes in this segment=2094) in 0.01 seconds
+0158.865 (0) Table wp_wfls_settings: finishing file(s) (2, 1 KB)
+0158.872 (0) Table wp_wfnotifications: Total expected rows (approximate): 4
+0158.876 (0) Table wp_wfnotifications: Rows added in this batch (next record: 1000): 4 (uncompressed bytes in this segment=1400) in 0.00 seconds
+0158.890 (0) Table wp_wfnotifications: finishing file(s) (2, 0.6 KB)
+0158.899 (0) Table wp_wfpendingissues: Total expected rows (via COUNT): 0
+0158.901 (0) Table wp_wfpendingissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=902) in 0.00 seconds
+0158.910 (0) Table wp_wfpendingissues: finishing file(s) (2, 0.4 KB)
+0158.917 (0) Table wp_wfreversecache: Total expected rows (approximate): 0
+0158.920 (0) Table wp_wfreversecache: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=635) in 0.00 seconds
+0158.927 (0) Table wp_wfreversecache: finishing file(s) (2, 0.4 KB)
+0158.934 (0) Table wp_wfsecurityevents: Total expected rows (via COUNT): 0
+0158.936 (0) Table wp_wfsecurityevents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=712) in 0.00 seconds
+0158.942 (0) Table wp_wfsecurityevents: finishing file(s) (2, 0.4 KB)
+0158.948 (0) Table wp_wfsnipcache: Total expected rows (via COUNT): 0
+0158.952 (0) Table wp_wfsnipcache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=729) in 0.00 seconds
+0158.964 (0) Table wp_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0158.972 (0) Table wp_wfstatus: Total expected rows (via COUNT): 20
+0158.975 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0158.981 (0) Table wp_wfstatus: Rows added in this batch (next record: 20): 20 (uncompressed bytes in this segment=2427) in 0.01 seconds
+0158.992 (0) Table wp_wfstatus: finishing file(s) (2, 0.9 KB)
+0159.001 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0159.007 (0) Table wp_wftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=596) in 0.01 seconds
+0159.022 (0) Table wp_wftrafficrates: finishing file(s) (2, 0.4 KB)
+0159.030 (0) Table wp_wfwaffailures: Total expected rows (via COUNT): 0
+0159.033 (0) Table wp_wfwaffailures: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=559) in 0.00 seconds
+0159.043 (0) Table wp_wfwaffailures: finishing file(s) (2, 0.4 KB)
+0159.085 (0) Table wp_wpforms_logs: Total expected rows (via COUNT): 28
+0159.088 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0159.098 (0) Table wp_wpforms_logs: Rows added in this batch (next record: 28): 28 (uncompressed bytes in this segment=3594) in 0.02 seconds
+0159.113 (0) Table wp_wpforms_logs: finishing file(s) (2, 0.7 KB)
+0159.141 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0159.146 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=690) in 0.02 seconds
+0159.159 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0159.206 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0159.271 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1650) in 0.10 seconds
+0159.285 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0159.299 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 7
+0159.301 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0159.307 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 22): 7 (uncompressed bytes in this segment=1123) in 0.01 seconds
+0159.317 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0159.384 (0) Table wp_wpgmza: Total expected rows (via COUNT): 1
+0159.426 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0159.432 (0) Table wp_wpgmza: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=1267) in 0.09 seconds
+0159.468 (0) Table wp_wpgmza: finishing file(s) (2, 0.6 KB)
+0159.486 (0) Table wp_wpgmza_admin_notices: Total expected rows (via COUNT): 0
+0159.495 (0) Table wp_wpgmza_admin_notices: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=639) in 0.02 seconds
+0159.507 (0) Table wp_wpgmza_admin_notices: finishing file(s) (2, 0.4 KB)
+0159.521 (0) Table wp_wpgmza_circles: Total expected rows (via COUNT): 0
+0159.524 (0) Table wp_wpgmza_circles: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=985) in 0.01 seconds
+0159.538 (0) Table wp_wpgmza_circles: finishing file(s) (2, 0.4 KB)
+0159.548 (0) Table wp_wpgmza_image_overlays: Total expected rows (via COUNT): 0
+0159.551 (0) Table wp_wpgmza_image_overlays: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.00 seconds
+0159.562 (0) Table wp_wpgmza_image_overlays: finishing file(s) (2, 0.4 KB)
+0159.582 (0) Table wp_wpgmza_maps: Total expected rows (via COUNT): 1
+0159.584 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0159.589 (0) Table wp_wpgmza_maps: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2122) in 0.01 seconds
+0159.597 (0) Table wp_wpgmza_maps: finishing file(s) (2, 0.8 KB)
+0159.606 (0) Table wp_wpgmza_point_labels: Total expected rows (via COUNT): 0
+0159.614 (0) Table wp_wpgmza_point_labels: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=694) in 0.01 seconds
+0159.627 (0) Table wp_wpgmza_point_labels: finishing file(s) (2, 0.4 KB)
+0159.643 (0) Table wp_wpgmza_polygon: Total expected rows (via COUNT): 0
+0159.646 (0) Table wp_wpgmza_polygon: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=977) in 0.01 seconds
+0159.659 (0) Table wp_wpgmza_polygon: finishing file(s) (2, 0.4 KB)
+0159.672 (0) Table wp_wpgmza_polylines: Total expected rows (via COUNT): 0
+0159.676 (0) Table wp_wpgmza_polylines: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=675) in 0.01 seconds
+0159.686 (0) Table wp_wpgmza_polylines: finishing file(s) (2, 0.4 KB)
+0159.694 (0) Table wp_wpgmza_rectangles: Total expected rows (via COUNT): 0
+0159.696 (0) Table wp_wpgmza_rectangles: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1005) in 0.00 seconds
+0159.705 (0) Table wp_wpgmza_rectangles: finishing file(s) (2, 0.5 KB)
+0159.712 (0) Table wp_wpmailsmtp_debug_events: Total expected rows (via COUNT): 2
+0159.714 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0159.718 (0) Table wp_wpmailsmtp_debug_events: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1275) in 0.01 seconds
+0159.726 (0) Table wp_wpmailsmtp_debug_events: finishing file(s) (2, 0.6 KB)
+0159.763 (0) Table wp_wpmailsmtp_tasks_meta: Total expected rows (via COUNT): 1
+0159.767 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0159.772 (0) Table wp_wpmailsmtp_tasks_meta: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=704) in 0.02 seconds
+0159.791 (0) Table wp_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.4 KB)
+0159.793 (0) PHP event: code E_WARNING: filemtime(): stat failed for /var/www/html/wordpress/wp-content/updraft/backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db.gz (line 1925, wp-content/plugins/updraftplus/backup.php)
+0159.796 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_options.table.tmpr5701.gz (1/70/fopen): adding to final database dump
+0159.803 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_options.table.gz (2/70/fopen): adding to final database dump
+0159.888 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_users.table.tmpr2.gz (3/70/fopen): adding to final database dump
+0159.890 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_users.table.gz (4/70/fopen): adding to final database dump
+0159.892 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_usermeta.table.tmpr38.gz (5/70/fopen): adding to final database dump
+0159.893 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_usermeta.table.gz (6/70/fopen): adding to final database dump
+0159.896 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_actionscheduler_actions.table.tmpr119.gz (7/70/fopen): adding to final database dump
+0159.898 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_actionscheduler_actions.table.gz (8/70/fopen): adding to final database dump
+0159.901 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/70/fopen): adding to final database dump
+0159.903 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_actionscheduler_claims.table.gz (10/70/fopen): adding to final database dump
+0159.907 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_actionscheduler_groups.table.tmpr4.gz (11/70/fopen): adding to final database dump
+0159.911 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_actionscheduler_groups.table.gz (12/70/fopen): adding to final database dump
+0159.913 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_actionscheduler_logs.table.tmpr195.gz (13/70/fopen): adding to final database dump
+0159.915 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_actionscheduler_logs.table.gz (14/70/fopen): adding to final database dump
+0159.917 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_commentmeta.table.tmpr0.gz (15/70/fopen): adding to final database dump
+0159.920 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_commentmeta.table.gz (16/70/fopen): adding to final database dump
+0159.922 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_comments.table.tmpr2.gz (17/70/fopen): adding to final database dump
+0159.924 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_comments.table.gz (18/70/fopen): adding to final database dump
+0159.926 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_imagify_files.table.tmpr0.gz (19/70/fopen): adding to final database dump
+0159.927 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_imagify_files.table.gz (20/70/fopen): adding to final database dump
+0159.929 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_imagify_folders.table.tmpr0.gz (21/70/fopen): adding to final database dump
+0159.931 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_imagify_folders.table.gz (22/70/fopen): adding to final database dump
+0159.932 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_links.table.tmpr0.gz (23/70/fopen): adding to final database dump
+0159.934 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_links.table.gz (24/70/fopen): adding to final database dump
+0159.936 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_postmeta.table.tmpr5117.gz (25/70/fopen): adding to final database dump
+0159.950 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_postmeta.table.gz (26/70/fopen): adding to final database dump
+0159.952 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_posts.table.tmpr1325.gz (27/70/fopen): adding to final database dump
+0159.957 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_posts.table.gz (28/70/fopen): adding to final database dump
+0159.959 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_term_relationships.table.tmpr100001.gz (29/70/fopen): adding to final database dump
+0159.961 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_term_relationships.table.gz (30/70/fopen): adding to final database dump
+0159.965 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_term_taxonomy.table.tmpr17.gz (31/70/fopen): adding to final database dump
+0159.968 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_term_taxonomy.table.gz (32/70/fopen): adding to final database dump
+0159.970 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_termmeta.table.tmpr0.gz (33/70/fopen): adding to final database dump
+0159.972 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_termmeta.table.gz (34/70/fopen): adding to final database dump
+0159.974 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_terms.table.tmpr17.gz (35/70/fopen): adding to final database dump
+0159.984 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_terms.table.gz (36/70/fopen): adding to final database dump
+0159.986 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_blc_filters.table.tmpr0.gz (37/70/fopen): adding to final database dump
+0159.988 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_blc_filters.table.gz (38/70/fopen): adding to final database dump
+0159.990 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_blc_instances.table.tmpr830.gz (39/70/fopen): adding to final database dump
+0159.992 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_blc_instances.table.gz (40/70/fopen): adding to final database dump
+0159.994 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_blc_links.table.tmpr48.gz (41/70/fopen): adding to final database dump
+0159.995 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_blc_links.table.gz (42/70/fopen): adding to final database dump
+0159.997 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_blc_synch.table.tmpr1001.gz (43/70/fopen): adding to final database dump
+0159.999 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_blc_synch.table.gz (44/70/fopen): adding to final database dump
+0160.003 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_e_events.table.tmpr13.gz (45/70/fopen): adding to final database dump
+0160.008 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_e_events.table.gz (46/70/fopen): adding to final database dump
+0160.012 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_nextend2_image_storage.table.tmpr9.gz (47/70/fopen): adding to final database dump
+0160.014 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_nextend2_image_storage.table.gz (48/70/fopen): adding to final database dump
+0160.016 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_nextend2_section_storage.table.tmpr11491.gz (49/70/fopen): adding to final database dump
+0160.018 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_nextend2_section_storage.table.gz (50/70/fopen): adding to final database dump
+0160.019 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_nextend2_smartslider3_generators.table.tmpr0.gz (51/70/fopen): adding to final database dump
+0160.021 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_nextend2_smartslider3_generators.table.gz (52/70/fopen): adding to final database dump
+0160.023 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_nextend2_smartslider3_sliders.table.tmpr3.gz (53/70/fopen): adding to final database dump
+0160.025 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_nextend2_smartslider3_sliders.table.gz (54/70/fopen): adding to final database dump
+0160.027 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_nextend2_smartslider3_sliders_xref.table.tmpr1001.gz (55/70/fopen): adding to final database dump
+0160.031 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_nextend2_smartslider3_sliders_xref.table.gz (56/70/fopen): adding to final database dump
+0160.034 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_nextend2_smartslider3_slides.table.tmpr6.gz (57/70/fopen): adding to final database dump
+0160.037 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_nextend2_smartslider3_slides.table.gz (58/70/fopen): adding to final database dump
+0160.039 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_seopress_content_analysis.table.tmpr6.gz (59/70/fopen): adding to final database dump
+0160.041 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_seopress_content_analysis.table.gz (60/70/fopen): adding to final database dump
+0160.043 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfauditevents.table.tmpr0.gz (61/70/fopen): adding to final database dump
+0160.045 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfauditevents.table.gz (62/70/fopen): adding to final database dump
+0160.046 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfblockediplog.table.tmpr1.gz (63/70/fopen): adding to final database dump
+0160.048 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfblockediplog.table.gz (64/70/fopen): adding to final database dump
+0160.050 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfblocks7.table.tmpr0.gz (65/70/fopen): adding to final database dump
+0160.052 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfblocks7.table.gz (66/70/fopen): adding to final database dump
+0160.055 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfconfig.table.tmpr1001.gz (67/70/fopen): adding to final database dump
+0160.059 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfconfig.table.gz (68/70/fopen): adding to final database dump
+0160.062 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfcrawlers.table.tmpr1.gz (69/70/fopen): adding to final database dump
+0160.065 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfcrawlers.table.gz (70/70/fopen): adding to final database dump
+0160.067 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wffilechanges.table.tmpr1.gz (71/70/fopen): adding to final database dump
+0160.070 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wffilechanges.table.gz (72/70/fopen): adding to final database dump
+0160.072 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wffilemods.table.tmpr1.gz (73/70/fopen): adding to final database dump
+0160.074 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wffilemods.table.gz (74/70/fopen): adding to final database dump
+0160.076 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfhits.table.tmpr0.gz (75/70/fopen): adding to final database dump
+0160.077 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfhits.table.gz (76/70/fopen): adding to final database dump
+0160.080 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfhoover.table.tmpr0.gz (77/70/fopen): adding to final database dump
+0160.083 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfhoover.table.gz (78/70/fopen): adding to final database dump
+0160.086 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfissues.table.tmpr5.gz (79/70/fopen): adding to final database dump
+0160.088 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfissues.table.gz (80/70/fopen): adding to final database dump
+0160.090 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfknownfilelist.table.tmpr0.gz (81/70/fopen): adding to final database dump
+0160.092 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfknownfilelist.table.gz (82/70/fopen): adding to final database dump
+0160.096 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wflivetraffichuman.table.tmpr1.gz (83/70/fopen): adding to final database dump
+0160.098 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wflivetraffichuman.table.gz (84/70/fopen): adding to final database dump
+0160.101 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wflocs.table.tmpr1001.gz (85/70/fopen): adding to final database dump
+0160.104 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wflocs.table.gz (86/70/fopen): adding to final database dump
+0160.107 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wflogins.table.tmpr0.gz (87/70/fopen): adding to final database dump
+0160.109 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wflogins.table.gz (88/70/fopen): adding to final database dump
+0160.111 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfls_2fa_secrets.table.tmpr0.gz (89/70/fopen): adding to final database dump
+0160.113 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfls_2fa_secrets.table.gz (90/70/fopen): adding to final database dump
+0160.115 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfls_role_counts.table.tmpr1.gz (91/70/fopen): adding to final database dump
+0160.118 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfls_role_counts.table.gz (92/70/fopen): adding to final database dump
+0160.120 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfls_settings.table.tmpr1001.gz (93/70/fopen): adding to final database dump
+0160.123 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfls_settings.table.gz (94/70/fopen): adding to final database dump
+0160.125 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfnotifications.table.tmpr1001.gz (95/70/fopen): adding to final database dump
+0160.130 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfnotifications.table.gz (96/70/fopen): adding to final database dump
+0160.132 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfpendingissues.table.tmpr0.gz (97/70/fopen): adding to final database dump
+0160.134 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfpendingissues.table.gz (98/70/fopen): adding to final database dump
+0160.137 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfreversecache.table.tmpr1001.gz (99/70/fopen): adding to final database dump
+0160.141 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfreversecache.table.gz (100/70/fopen): adding to final database dump
+0160.143 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfsecurityevents.table.tmpr0.gz (101/70/fopen): adding to final database dump
+0160.145 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfsecurityevents.table.gz (102/70/fopen): adding to final database dump
+0160.147 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfsnipcache.table.tmpr0.gz (103/70/fopen): adding to final database dump
+0160.149 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfsnipcache.table.gz (104/70/fopen): adding to final database dump
+0160.152 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfstatus.table.tmpr21.gz (105/70/fopen): adding to final database dump
+0160.154 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfstatus.table.gz (106/70/fopen): adding to final database dump
+0160.157 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wftrafficrates.table.tmpr1.gz (107/70/fopen): adding to final database dump
+0160.162 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wftrafficrates.table.gz (108/70/fopen): adding to final database dump
+0160.164 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfwaffailures.table.tmpr0.gz (109/70/fopen): adding to final database dump
+0160.167 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wfwaffailures.table.gz (110/70/fopen): adding to final database dump
+0160.170 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpforms_logs.table.tmpr29.gz (111/70/fopen): adding to final database dump
+0160.172 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpforms_logs.table.gz (112/70/fopen): adding to final database dump
+0160.174 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (113/70/fopen): adding to final database dump
+0160.176 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpforms_payment_meta.table.gz (114/70/fopen): adding to final database dump
+0160.177 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpforms_payments.table.tmpr0.gz (115/70/fopen): adding to final database dump
+0160.179 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpforms_payments.table.gz (116/70/fopen): adding to final database dump
+0160.182 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpforms_tasks_meta.table.tmpr23.gz (117/70/fopen): adding to final database dump
+0160.184 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpforms_tasks_meta.table.gz (118/70/fopen): adding to final database dump
+0160.187 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpgmza.table.tmpr3.gz (119/70/fopen): adding to final database dump
+0160.190 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpgmza.table.gz (120/70/fopen): adding to final database dump
+0160.192 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpgmza_admin_notices.table.tmpr0.gz (121/70/fopen): adding to final database dump
+0160.196 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpgmza_admin_notices.table.gz (122/70/fopen): adding to final database dump
+0160.198 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpgmza_circles.table.tmpr0.gz (123/70/fopen): adding to final database dump
+0160.200 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpgmza_circles.table.gz (124/70/fopen): adding to final database dump
+0160.203 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpgmza_image_overlays.table.tmpr0.gz (125/70/fopen): adding to final database dump
+0160.205 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpgmza_image_overlays.table.gz (126/70/fopen): adding to final database dump
+0160.206 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpgmza_maps.table.tmpr2.gz (127/70/fopen): adding to final database dump
+0160.208 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpgmza_maps.table.gz (128/70/fopen): adding to final database dump
+0160.210 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpgmza_point_labels.table.tmpr0.gz (129/70/fopen): adding to final database dump
+0160.212 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpgmza_point_labels.table.gz (130/70/fopen): adding to final database dump
+0160.214 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpgmza_polygon.table.tmpr0.gz (131/70/fopen): adding to final database dump
+0160.218 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpgmza_polygon.table.gz (132/70/fopen): adding to final database dump
+0160.220 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpgmza_polylines.table.tmpr0.gz (133/70/fopen): adding to final database dump
+0160.222 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpgmza_polylines.table.gz (134/70/fopen): adding to final database dump
+0160.224 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpgmza_rectangles.table.tmpr0.gz (135/70/fopen): adding to final database dump
+0160.225 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpgmza_rectangles.table.gz (136/70/fopen): adding to final database dump
+0160.229 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpmailsmtp_debug_events.table.tmpr3.gz (137/70/fopen): adding to final database dump
+0160.231 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpmailsmtp_debug_events.table.gz (138/70/fopen): adding to final database dump
+0160.233 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpmailsmtp_tasks_meta.table.tmpr2.gz (139/70/fopen): adding to final database dump
+0160.235 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db-table-wp_wpmailsmtp_tasks_meta.table.gz (140/70/fopen): adding to final database dump
+0160.241 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db.gz: finished writing out complete database file (849 KB)
+0160.278 (0) Total database tables backed up: 70 (backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db.gz, size: 869481, sha1: a234d70ff330c22c379b451ba60d307e411841ed, sha256: 6f3ad35b1c976e50144b8c3e62cd957b391f530f67e4fbab38b61181f8178462)
+0160.292 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip: plugins: This file has already been successfully uploaded
+0160.294 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-themes.zip: themes: This file has already been successfully uploaded
+0160.299 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-uploads.zip: uploads: This file has already been successfully uploaded
+0160.301 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-others.zip: others: This file has already been successfully uploaded
+0160.340 (0) backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db.gz: db: This file has not yet been successfully uploaded: will queue
+0160.371 (0) Saving backup history. Total backup size: 80.1 MB
+0160.409 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0160.447 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0160.450 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-724255601916f0f3d98fc68ece2ebb81)
+0160.922 (0) Google Drive: quota usage: used=221.4 MB, total=15360 MB, available=15138.6 MB
+0160.952 (0) Google Drive: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db.gz: Attempting to upload to Google Drive (into folder id: 1n_wjwSdz3xR1G1jdtz5XzJoxmV0QIM02)
+0164.007 (0) Googledrive chunked upload: 100 % uploaded
+0164.030 (0) Google Drive: OK: Archive backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db.gz uploaded in 3.04 seconds
+0164.034 (0) Recording as successfully uploaded: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db.gz
+0164.041 (0) Deleting local file: backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-db.gz: OK
+0164.051 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0164.054 (0) Number of backup sets in history: 3; groups (db): 1
+0164.056 (0) Examining (for databases) backup set with group_id=0, nonce=fcd30c4fb917, datestamp=1732176185 (Nov 21 2024 08:03:05)
+0164.058 (0) This backup set is the backup set just made, so will not be deleted.
+0164.058 (0) Examining (for databases) backup set with group_id=0, nonce=5d05fc0f352c, datestamp=1732089665 (Nov 20 2024 08:01:05)
+0164.058 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0164.059 (0) Examining (for databases) backup set with group_id=0, nonce=cd6ba04531ee, datestamp=1732003239 (Nov 19 2024 08:00:39)
+0164.059 (0) 1732003239: db: this set includes a database (backup_2024-11-19-0900_Vincent_Le_Buzulier_cd6ba04531ee-db.gz); db count is now 2
+0164.059 (0) 1732003239: db: over retain limit (2); will delete this database
+0166.983 (0) Google Drive: backup_2024-11-19-0900_Vincent_Le_Buzulier_cd6ba04531ee-db.gz: Deletion successful
+0167.109 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0167.115 (0) Number of backup sets in history: 3; groups (files): 1
+0167.129 (0) Examining (for files) backup set with nonce=fcd30c4fb917, datestamp=1732176185 (Nov 21 2024 08:03:05)
+0167.129 (0) This backup set is the backup set just made, so will not be deleted.
+0167.144 (0) This backup set is the backup set just made, so will not be deleted.
+0167.144 (0) This backup set is the backup set just made, so will not be deleted.
+0167.145 (0) This backup set is the backup set just made, so will not be deleted.
+0167.145 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0167.149 (0) Examining (for files) backup set with nonce=5d05fc0f352c, datestamp=1732089665 (Nov 20 2024 08:01:05)
+0167.149 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0167.150 (0) Examining (for files) backup set with nonce=cd6ba04531ee, datestamp=1732003239 (Nov 19 2024 08:00:39)
+0167.150 (0) plugins: over retain limit (2); will delete this file entity
+0167.150 (0) themes: over retain limit (2); will delete this file entity
+0167.150 (0) uploads: over retain limit (2); will delete this file entity
+0167.150 (0) others: over retain limit (2); will delete this file entity
+0168.832 (0) Google Drive: backup_2024-11-19-0900_Vincent_Le_Buzulier_cd6ba04531ee-others.zip: Deletion successful
+0169.944 (0) Google Drive: backup_2024-11-19-0900_Vincent_Le_Buzulier_cd6ba04531ee-uploads.zip: Deletion successful
+0171.619 (0) Google Drive: backup_2024-11-19-0900_Vincent_Le_Buzulier_cd6ba04531ee-themes.zip: Deletion successful
+0172.548 (0) Google Drive: backup_2024-11-19-0900_Vincent_Le_Buzulier_cd6ba04531ee-plugins.zip: Deletion successful
+0172.610 (0) This backup set is now empty; will remove from history
+0172.614 (0) Deleting log file (log.cd6ba04531ee.txt)
+0172.617 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0172.646 (0) Resume backup (fcd30c4fb917, 0): finish run
+0172.681 (0) Decremented the semaphore (fd) by 1
+0172.689 (0) Semaphore (fd) unlocked
+0172.696 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0172.727 (0) The backup succeeded and is now complete
+0172.730 (0) Deleting zip manifest (backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-plugins.zip.list.tmp)
+0172.734 (0) Deleting zip manifest (backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-themes.zip.list.tmp)
+0172.740 (0) Deleting zip manifest (backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-uploads.zip.list.tmp)
+0172.743 (0) Deleting zip manifest (backup_2024-11-21-0903_Vincent_Le_Buzulier_fcd30c4fb917-others.zip.list.tmp)
+0172.749 (0) No email will/can be sent - the user has not configured an email address.
+0172.754 (0) La sauvegarde a réussi et est maintenant terminée
